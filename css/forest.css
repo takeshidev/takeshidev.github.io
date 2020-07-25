@@ -1,0 +1,112 @@
+/*html {
+  background: url(../img/forest/bg001or.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}*/
+
+
+html {
+  background: rgb(0,96,13);
+  background: radial-gradient(circle, rgba(0,96,13,1) 50%, rgba(31,148,9,1) 88%, rgba(12,198,0,1) 100%);
+  background: url(../img/forest/fondo1.jpg) no-repeat center center fixed;
+  font-family: 'Arial';
+}
+
+header{
+  background: rgba(54, 54, 54, 0.8);
+  text-align: center;
+  margin-top: 0px;
+  width: 90%;
+  margin: auto;
+  padding: 1em;
+  border: 0px;
+  border-radius: 2em;
+}
+#logomain {
+  border-radius: 8px;
+  max-height: 8em;
+}
+
+nav{  width: 90%;
+  margin: auto;padding: 1em;align-content: center;border-radius: 10px}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+nav li:last-child {
+  border-right: none;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #111;
+}
+
+
+section{
+  width: 90%;
+  margin: auto;
+
+  padding: 1em;
+
+}
+article{
+border-radius: 10px;
+  background: rgb(62, 82, 62);
+  padding: 0.5em;
+  display: flex;
+  /*background: rgb(200, 255, 200);*/
+}
+article img{
+  max-height: 15em;
+}
+
+div{display: inline;}
+.left{
+  width: 60%;
+}
+
+.thumb{
+  display: inline;
+  max-height: 8em;
+}
+
+.texto{
+  padding: 1em;
+  color: rgb(201, 255, 201);
+}
+.quotes{
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  font-style: italic;
+  width: 100%;
+}
+.fa-user-circle{
+  font-size: 3em;
+}
+#nombre{font-size: 0.7em}
+footer{position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgb(0, 100, 00);
+  text-align: center;
+}

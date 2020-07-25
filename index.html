@@ -9,15 +9,147 @@
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <title>Takeshi Kita - Full Stack Java Developer</title>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
   <link rel="stylesheet" href="css/landingA.css" />
   <!-- <link rel="icon" href="favicon.ico"/> -->
 </head>
 
 <body>
-
-    <h1><img src="takeshi.png" alt="takeshi.cl"></h1>
+  <header class="container-fluid">
+    <br>
     <h1>Takeshi Kita Terrile</h1>
     <h2>Full Stack Java Developer</h2>
-    
-    </body>
-    </html>
+    <button onclick="darkMode()">Toggle dark mode</button>
+  </header>
+  <nav class="container-fluid">
+    <div class="botonera">
+      <div><a class="btn btn-outline-primary" role="button" href="#perfil">Perfil</a></div>
+      <div><a class="btn btn-outline-primary" role="button" href="https://www.github.com/takeshidev"
+          target="_blank">GitHub</a></div>
+      <div><a class="btn btn-outline-primary" role="button" href="http://www.linkedin.com/in/takeshikita"
+          target="_blank">LinkedIn</a></div>
+    </div>
+  </nav>
+  <main>
+    <div class="card-deck">
+      <div class="card">
+        <div class="card-header">
+          <h5 class="card-title" id="perfil">Mi perfil</h5>
+        </div>
+        <div class="card-body">
+          <p class="card-text">
+          <p>+ Full Stack Java Developer</p>
+          <p>+ Dominio de Inglés a nivel avanzado. Experiencia en multinacionales.</p>
+          <p>+ Psicólogo, con mención Organizacional de la Universidad Central, diplomado en Negocios y Estrategia de la
+            Universidad Adolfo Ibáñez, con 10 años de experiencia en RR.HH. y desarrollo de equipos multiculturales.</p>
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <h5 class="card-title">Dominio tencológico</h5>
+        </div>
+        <div class="card-body">
+          <p class="card-text">
+
+            <a tabindex="0" class="btntech" role="button" data-toggle="popover" data-placement="top"
+              data-trigger="focus" data-content="Java"> <img class="tech" src="img/logos/smjava.png" alt="Java"></a>
+            <a tabindex="0" class="btntech" role="button" data-toggle="popover" data-placement="top"
+              data-trigger="focus" data-content="Spring Framework"><img class="tech" src="img/logos/smspring.png"
+                alt="Spring"></a>
+            <a tabindex="0" class="btntech" role="button" data-toggle="popover" data-placement="top"
+              data-trigger="focus" data-content="MySQL"><img class="tech" src="img/logos/smmysql.png" alt="MySQL"></a>
+            <a tabindex="0" class="btntech" role="button" data-toggle="popover" data-placement="top"
+              data-trigger="focus" data-content="Oracle DB - PL/SQL"><img class="tech" src="img/logos/smoracledb.png"
+                alt="Oracle"></a>
+            <a tabindex="0" class="btntech" role="button" data-toggle="popover" data-placement="top"
+              data-trigger="focus" data-content="HTML5"> <img class="tech" src="img/logos/smhtml.png" alt="HTML5"></a>
+            <a tabindex="0" class="btntech" role="button" data-toggle="popover" data-placement="top"
+              data-trigger="focus" data-content="CSS"><img class="tech" src="img/logos/smcss.png" alt="CSS"></a>
+            <a tabindex="0" class="btntech" role="button" data-toggle="popover" data-placement="top"
+              data-trigger="focus" data-content="JavaScript"><img class="tech" src="img/logos/smjs.png"
+                alt="JavaScript"></a>
+            <a tabindex="0" class="btntech" role="button" data-toggle="popover" data-placement="top"
+              data-trigger="focus" data-content="jQuery"><img class="tech" src="img/logos/smjquery.png"
+                alt="jQuery"></a>
+            <a tabindex="0" class="btntech" role="button" data-toggle="popover" data-placement="top"
+              data-trigger="focus" data-content="jUnit - Pruebas unitarias"><img class="tech"
+                src="img/logos/smjunit.png" alt="jUnit"></a>
+            <a tabindex="0" class="btntech" role="button" data-toggle="popover" data-placement="top"
+              data-trigger="focus" data-content="Linux"><img class="tech" src="img/logos/smlinux.png" alt="Linux"></a>
+            <a tabindex="0" class="btntech" role="button" data-toggle="popover" data-placement="top"
+              data-trigger="focus" data-content="Apache Tomcat Server"><img class="tech" src="img/logos/smtomcat.png"
+                alt="Apache Tomcat"></a>
+            <a tabindex="0" class="btntech" role="button" data-toggle="popover" data-placement="top"
+              data-trigger="focus" data-content="Ubuntu"><img class="tech" src="img/logos/smubuntu.png"
+                alt="Ubuntu"></a>
+            <a tabindex="0" class="btntech" role="button" data-toggle="popover" data-placement="top"
+              data-trigger="focus" data-content="Bootstrap"><img class="tech" src="img/logos/smbootstrap.png"
+                alt="Bootstrap"></a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    2020 - Santiago, Chile<br>
+    Diseño: <a href="http://takeshi.cl">takeshi.cl</a>
+  </footer>
+  <!-- Bootstrap 4 -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <!-- Activacion popover  -->
+  <script>
+    $(function () {
+      $('[data-toggle="popover"]').popover()
+    })
+    $('.popover-dismiss').popover({
+      trigger: 'focus'
+    })
+  </script>
+
+  <!-- Switch CSS (dark mode)-->
+  <script>
+    var modo = true;
+
+    function darkMode() {
+      var element = document.body;
+
+      var cssActual = document.getElementsByTagName("link").item(1); // toma el elemento link indice N, donde 0 es el link de bootstrap, 1 es el link propio
+      if (modo == true) {
+        var cssNuevo = document.createElement("link");
+        cssNuevo.setAttribute("rel", "stylesheet");
+        cssNuevo.setAttribute("type", "text/css");
+        cssNuevo.setAttribute("href", "css/landingB.css");
+
+        document.getElementsByTagName("head").item(0).replaceChild(cssNuevo, cssActual);
+        modo = false;
+
+      } else {
+        var cssNuevo = document.createElement("link");
+        cssNuevo.setAttribute("rel", "stylesheet");
+        cssNuevo.setAttribute("type", "text/css");
+        cssNuevo.setAttribute("href", "css/landingA.css");
+
+        document.getElementsByTagName("head").item(0).replaceChild(cssNuevo, cssActual);
+        modo = true;
+      }
+
+
+    }
+
+  </script>
+
+</body>
+
+</html>
