@@ -1,130 +1,143 @@
-
 <!DOCTYPE html>
 <!-- TK Landing page -->
 <html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="web design, programacion, sql, developer, testing, test automation engineer, webdriverio" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="keywords" content="web design, programacion, java, spring, sql, developer" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <title>Takeshi Kita - Test Automation Engineer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Takeshi Kita - Test Automation Engineer</title>
+    <link rel="stylesheet" href="css/landingA.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet" />
+    <link rel="icon" href="favicon.ico" type="image/png" />
+  </head>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-
-  <link rel="stylesheet" href="css/landingA.css" />
-  <link rel="icon" href="favicon.ico" type="image/png" >
-</head>
-
-<body>
-  <header class="container-fluid">
-    <br>
-    <h1>Takeshi Kita Terrile</h1>
-    <h2>Test Automation Engineer</h2>
-    <button onclick="darkMode()">Dark mode</button>
-  </header>
-  <nav class="container-fluid">
-    <div class="botonera">
-      <div><a class="btn btn-outline-primary" role="button" href="https://www.github.com/takeshidev"
-          target="_blank">GitHub</a></div>
-      <div><a class="btn btn-outline-primary" role="button" href="http://www.linkedin.com/in/takeshikita"
-          target="_blank">LinkedIn</a></div>
-    </div>
-  </nav>
-  <main>
-    <div class="card-deck">
-      <div class="card">
-        <div class="card-header">
-          <h5 class="card-title" id="perfil">My Experience</h5>
-        </div>
-        <div class="card-body">
-          <p class="card-text">
-          <p>Test Automation Engineer - SDET</p>
-          <p>Full Stack Java Developer</p>
-          <p>UI Testing</p>
-          <p>API Testing</p>
-          <p>A11Y Testing</p>
-          <p>Fluency in English with experience collaborating with multinational stakeholders.</p>
-          </p>
-        </div>
+  <body>
+    <header class="container-fluid">
+      <div>
+        <p class="top">Hi, I'm</p>
+        <h1>
+          <span>T</span><span>a</span><span>k</span><span>e</span><span>s</span><span>h</span><span>i</span><span> <span> </span> </span> <span>K</span><span>i</span
+          ><span>t</span><span>a</span>
+        </h1>
+        <h2>Test Automation Engineer - SDET - Software Developer</h2>
       </div>
-      <div class="card">
-        <div class="card-header">
-          <h5 class="card-title">My Tech</h5>
+    </header>
+    <!-- Botones -->
+    <div class="botones">
+      <a role="button" href="https://www.github.com/takeshidev" target="_blank">
+        <span class="badges"> <i class="fa-brands fa-github"></i> See my work </span>
+      </a>
+      <a role="button" href="http://www.linkedin.com/in/takeshikita" target="_blank">
+        <span class="badges"> <i class="fa-brands fa-linkedin"></i> Contact me </span>
+      </a>
+    </div>
+    <!-- Carousel -->
+    <div>
+      <div>Featured from my GitHub</div>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="https://github.com/takeshidev/Automated-Testing-Demo---Api-and-Web" target="_blank">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Automated Testing Demo</h5>
+                <p>Api and Web using WebDriverIO</p>
+              </div>
+              <img class="d-block mx-auto" src="img/allure01.png" alt="First slide" />
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="https://github.com/takeshidev/TK-SimHubDashboard" target="_blank">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>SimHub Dashboard</h5>
+                <p>A SimHub dashboard for iRacing.com</p>
+              </div>
+              <img class="d-block mx-auto" src="img/SimHub02.gif" alt="Second slide" />
+            </a>
+          </div>
         </div>
-        <div class="card-body">
-          <p class="card-text">
-            <p>JavaScript / TypeScript</p>
-            <p>TestCafe</p>
-            <p>WebDriver IO</p>
-            <p>Chai</p>
-            <p>GitHub Actions</p>
-            <p>Allure Report</p>
-            <p>Jira</p>
-            <p></p>
-            <p>Java</p>
-            <p>Spring</p>
-            <p>SQL</p>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
 
-            </p>
+    <main>
+      <div class="card-deck">
+        <div class="card">
+          <div class="card-header">
+            <h5 class="card-title" id="perfil">My Experience</h5>
+          </div>
+          <div class="card-body">
+            <div class="card-text">
+              <p>Test Automation Engineer - SDET</p>
+              <p>Full Stack Java Developer</p>
+              <p>UI Testing</p>
+              <p>API Testing</p>
+              <p>A11Y Testing</p>
+              <p>Fluency in English with experience collaborating with multinational stakeholders.</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <h5 class="card-title">My Tech</h5>
+          </div>
+          <div class="card-body">
+            <div class="card-text">
+              <p>JavaScript / TypeScript</p>
+              <p>TestCafe</p>
+              <p>WebDriver IO</p>
+              <p>Chai</p>
+              <p>GitHub Actions</p>
+              <p>Allure Report</p>
+              <p>Jira</p>
+              <p></p>
+              <p>Java</p>
+              <p>Spring</p>
+              <p>SQL</p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </main>
+    </main>
 
-  <footer>
-    2024 - Santiago, Chile<br>
-    Diseño: <a href="http://takeshi.cl">takeshi.cl</a>
-  </footer>
-  <!-- Bootstrap 4 -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
-  <!-- Activacion popover  -->
-  <script>
-    $(function () {
-      $('[data-toggle="popover"]').popover()
-    })
-    $('.popover-dismiss').popover({
-      trigger: 'focus'
-    })
-  </script>
-
-  <!-- Switch CSS (dark mode)-->
-  <script>
-    var modo = true;
-
-    function darkMode() {
-      var element = document.body;
-
-      var cssActual = document.getElementsByTagName("link").item(1); // toma el elemento link indice N, donde 0 es el link de bootstrap, 1 es el link propio
-      if (modo == true) {
-        var cssNuevo = document.createElement("link");
-        cssNuevo.setAttribute("rel", "stylesheet");
-        cssNuevo.setAttribute("type", "text/css");
-        cssNuevo.setAttribute("href", "css/landingB.css");
-
-        document.getElementsByTagName("head").item(0).replaceChild(cssNuevo, cssActual);
-        modo = false;
-
-      } else {
-        var cssNuevo = document.createElement("link");
-        cssNuevo.setAttribute("rel", "stylesheet");
-        cssNuevo.setAttribute("type", "text/css");
-        cssNuevo.setAttribute("href", "css/landingA.css");
-
-        document.getElementsByTagName("head").item(0).replaceChild(cssNuevo, cssActual);
-        modo = true;
-      }
-    }
-  </script>
-</body>
+    <footer>
+      2024 - Santiago, Chile<br />
+      Diseño: <a href="https://www.takeshi.cl">takeshi.cl</a>
+    </footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
