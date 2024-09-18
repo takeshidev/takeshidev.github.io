@@ -14,6 +14,7 @@ header {
 
 header img {
   width: 100%;
+  max-width: 700px;
 }
 
 main {
@@ -47,11 +48,27 @@ main {
 }
 
 .card {
-  background-color: #1f1f1f;
-  min-width: 400px;
   margin-top: 1em;
+  border-color: #1f1f1f;
+  border-width: 3px;
+  border-radius: 7px;
 }
 
+.card-header {
+  background: rgb(49, 48, 53);
+}
+
+.card-header h5 {
+  font-size: larger;
+}
+
+.card-body {
+  background-color: rgb(37, 37, 37);
+}
+
+.card-body p {
+  font-size: small;
+}
 .carousel {
   max-width: 800px;
   margin: auto;
