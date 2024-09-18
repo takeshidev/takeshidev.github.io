@@ -74,6 +74,9 @@ main {
   margin: auto;
   margin-bottom: 3em;
 }
+.carousel-inner {
+  height: 400px;
+}
 
 .carousel-item img {
   max-height: 350px;
@@ -84,10 +87,15 @@ main {
 .carousel-caption {
   color: rgb(43, 43, 43);
   top: auto;
-  bottom: 0;
-  padding: 1em;
-  font-family: "Permanent Marker", cursive;
+  bottom: 0px;
+  padding-bottom: 0;
+  font-family: "Permanent Marker";
   font-style: normal;
+  text-wrap: wrap;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-shadow: rgb(94, 94, 94) 1px 0 2px;
 }
 
 footer {
