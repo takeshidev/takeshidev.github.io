@@ -33,4 +33,4 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Move files
-        run: mv * var/www/html
+        run: mv * /var/www/html
