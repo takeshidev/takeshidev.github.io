@@ -33,4 +33,4 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Move files
-        run: sudo mv * /var/www/html
+        run: sudo rsync -av --remove-source-files * /var/www/html/
