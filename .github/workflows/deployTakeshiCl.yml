@@ -32,5 +32,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Move files
+      - name: Move files www.takeshi.cl
         run: sudo rsync -av --remove-source-files * /var/www/html/
+
+      - name: Move files dash.takeshi.cl
+        run: sudo mv /var/www/html/dash.index.html /var/www/dash/index.html
