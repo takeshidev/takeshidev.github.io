@@ -1,0 +1,74 @@
+[
+  {
+    "text": "YouTube",
+    "url": "http://www.youtube.com"
+  },
+  {
+    "text": "GitHub",
+    "url": "https://github.com/takeshidev"
+  },
+  {
+    "text": "Gmail inbox",
+    "url": "https://mail.google.com/mail"
+  },
+  {
+    "text": "Google sheets",
+    "url": "https://docs.google.com/spreadsheets/u/0/"
+  },
+  {
+    "text": "http://localhost:3000/",
+    "url": "http://localhost:3000/"
+  },
+  {
+    "text": "http://localhost:8080/",
+    "url": "http://localhost:8080/"
+  },
+  {
+    "text": "Google Calendar",
+    "url": "https://calendar.google.com/calendar/r"
+  },
+  {
+    "text": "Banco Santander",
+    "url": "https://www.santander.cl/"
+  },
+  {
+    "text": "Songsterr",
+    "url": "https://www.songsterr.com/"
+  },
+  {
+    "text": "Banco Estado",
+    "url": "https://www.bancoestado.cl/"
+  },
+  {
+    "text": "Whatsapp Web",
+    "url": "https://web.whatsapp.com/"
+  },
+  {
+    "text": "Chat GPT",
+    "url": "https://chat.openai.com/"
+  },
+  {
+    "text": "Gemini",
+    "url": "https://gemini.google.com/"
+  },
+  {
+    "text": "Proxmox TK",
+    "url": "https://192.168.100.2:8006/"
+  },
+  {
+    "text": "Proxmox Backup Server",
+    "url": "https://localhost:8007/#pbsDashboard"
+  },
+  {
+    "text": "Home Assistant TK",
+    "url": "http://homeassistant.local:8123/"
+  },
+  {
+    "text": "Trading Paints",
+    "url": "https://www.tradingpaints.com/"
+  },
+  {
+    "text": "F1 Dashboard",
+    "url": "https://f1-dash.com/dashboard"
+  }
+]
