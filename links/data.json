@@ -16,14 +16,6 @@
     "url": "https://docs.google.com/spreadsheets/u/0/"
   },
   {
-    "text": "http://localhost:3000/",
-    "url": "http://localhost:3000/"
-  },
-  {
-    "text": "http://localhost:8080/",
-    "url": "http://localhost:8080/"
-  },
-  {
     "text": "Google Calendar",
     "url": "https://calendar.google.com/calendar/r"
   },
@@ -70,5 +62,24 @@
   {
     "text": "F1 Dashboard",
     "url": "https://f1-dash.com/dashboard"
+  },
+    {
+    "text": "Notion",
+    "url": "https://www.notion.so/takeshikita/"
+  },
+  {
+    "text": "http://localhost:3000/",
+    "url": "http://localhost:3000/"
+  },
+  {
+    "text": "http://localhost:8080/",
+    "url": "http://localhost:8080/"
+  },  {
+    "text": "takeshi.cl",
+    "url": "https://www.takeshi.cl"
+  },
+  {
+    "text": "Oracle VM2 144.22.33.16",
+    "url": "http://144.22.33.16/"
   }
 ]
